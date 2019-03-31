@@ -1,0 +1,67 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+h1 {
+	font-family: "Kaushan Script", sans-serif;
+	position: absolute;
+	top: 65px;
+	left: 220px;
+}
+
+.container {
+	position: relative;
+}
+
+.headerIcons {
+	position: absolute;
+	top: 80px;
+	right: 225px;
+}
+
+.icon {
+	color: #fff;
+	padding-left: 30px;
+	font-size: 30px;
+}
+
+.imgBox {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.imgBox img {
+	background-image: url(mainpic.jpg);
+	background-repeat: no-repeat;
+	height: 1000px;
+	width: 800px;
+
+}
+
+.ion-logo-linkedin:hover {
+	color: #0073b1;
+	transition: color 0.4s;	
+}
+
+.ion-logo-github:hover {
+	color: #24292e;
+	transition: color 0.4s;	
+}
+
+.ion-logo-codepen:hover {
+	color: #24292e;
+	transition: color 0.4s;	
+}
+
+.flex {
+	display: flex;
+	justify-content: flex-start;
+}
+
+.flex img {
+	height: 1360px;
+	width: 
+}
+
